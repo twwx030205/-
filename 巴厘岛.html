@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="旅游-2 (1)/旅游-2/assets/img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="旅游-2 (1)/旅游-2/assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="旅游-2 (1)/旅游-2/assets/css/styles.css">
+    <style type="text/css">
+    body,td,th {
+    font-size: 18px;
+}
+    </style>
+<title>Responsive Website Travel</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Travel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"> </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">关于</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">推荐</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">课程</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+<main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="旅游-2 (1)/旅游-2/assets/img/home3.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">制定你的旅游计划</span>
+                    <h1 class="home__data-title"><strong style="font-size: 100px; font-family: var(--title-font);">巴厘岛</strong></h1>
+</div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">你要寻找的一切美丽，都这里</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                        更多<br>
+                        <i class="ri-arrow-right-line"></i> </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/home4.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+              <div class="about__data">
+                <h2 class="section__title about__title">巴厘岛介绍</h2>
+                  <p class="about__description">&nbsp;<span style="text-align: center">这里的人们都有一种悠闲和知足常乐的气质，<br>
+                  到处都洋溢着轻快欢乐的气氛。<br>巴厘岛有很多迷人的海滩，<br>放眼望去，到处都是蓝天、白云、白沙、碧水，<br>还有数不清的亮丽多姿的船帆……<br>黄昏时分，端坐在海边更可以享受美丽绝伦的落日:<br>在名列世界十佳日落景观的金巴兰海滩<br>耀眼的强光渐渐淡没，<br>夕阳的余晖把整个天边都染得炫目金黄。<br>突然，落日不见了，只剩下绚烂的彤云。<br>然后，彤云也渐渐淡去，只剩下海天连成一片灰蓝。<br>看着这般美景，相信谁也无法不陶醉其中。</span> </p>
+                  <a href="#" class="button">制定计划&nbsp;</a>
+              </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">景点推荐&nbsp;</h2>
+
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper"> <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                      <img src="旅游-2 (1)/旅游-2/assets/img/discover1.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">情人崖</h2>
+                            <span class="discover__description">6590人喜欢</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                  <div class="discover__card swiper-slide">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/discover2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">海神庙</h2>
+                            <span class="discover__description">2647人喜欢</span>
+                      </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/discover3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">梯田秋千&nbsp;</h2>
+                            <span class="discover__description">5784人喜欢</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/discover4.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">追海豚</h2>
+                            <span class="discover__description">10156人喜欢</span>
+                        </div>
+                    </div>
+				    <div class="discover__card swiper-slide">
+                      <img src="旅游-2 (1)/旅游-2/assets/img/discover5.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">天空之门</h2>
+                            <span class="discover__description">6648人喜欢</span>
+                        </div>
+				
+				  </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">关于我</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <span class="experience__description">我是Line <br> 一名热爱旅行的人<br> 我喜欢探索和领略<br> 不同的风土人情和文化<br> 在我眼中<br> 旅行是寻找自我的一种方式<br>也是与世界互动的方式</span>
+                    </div>
+
+                    <div class="experience__data"> <span class="experience__description">巴厘岛&nbsp; <br>
+作为世界著名旅游圣地<br>已其独特的自然风光<br>卓越的度假体验吸引全球游客<br>随着互联网的发展<br>我将为通过生动的视频与资料<br>为用户提供高品质的付费旅游攻略</span>
+                  </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">&nbsp;10&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 650+</h2>
+                        <span class="experience__description" style="text-align: center">&nbsp;旅行时长&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 服务人数 <br>
+                      &nbsp;Year Experience&nbsp; &nbsp; Service Personnel</span>
+                  </div>
+                </div>
+
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/experience4.jpg" alt="" class="experience__img-one">
+                    </div>
+
+                    <div class="experience__overlay">
+                        <img src="旅游-2 (1)/旅游-2/assets/img/experience3.jpg" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VIDEO ====================-->
+  <section class="video section">
+            <h2 class="section__title">课程试看&nbsp;</h2>
+
+            <div class="video__container container">
+                <p class="video__description">踏入佩尼达岛，仿佛踏入了一个被大自然精心雕琢的梦幻世界。每一处景致都如同画卷般展开，让人流连忘返。
+                </p>
+
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="旅游-2 (1)/旅游-2/assets/video/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+        <!--==================== PLACES ====================-->
+  <section class="place section" id="place">
+            <h2 class="section__title">攻略课程</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">巴厘岛</h3>
+                            <span class="place__subtitle">出行准备及住宿<br>一键合理安排</span>
+                            <span class="place__price">￥69</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place2.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">5,0</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">乌布丛林</h3>
+                          <span class="place__subtitle">丛林秋千，出片圣地<br>定位及打卡点集</span>
+                            <span class="place__price">￥29&nbsp;</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place3.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">日落下追海豚</h3>
+                            <span class="place__subtitle">罗威纳一日游攻略&nbsp;</span>
+                            <span class="place__price">￥39&nbsp;</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place4.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">蓝梦岛潜浮</h3>
+                            <span class="place__subtitle">如何与热带海群<br>亲密接触？&nbsp;</span>
+                            <span class="place__price">￥59&nbsp;</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+<div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place5.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">乌布瀑布</h3>
+                            <span class="place__subtitle">穿越丛林<br>隐藏在洞穴内的瀑布</span>
+                            <span class="place__price">￥39</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                                </div>
+				<div class="place__card">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/place6.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">布罗莫火山</h3>
+                            <span class="place__subtitle">世界上最美的独一无二火山<br>最像月球的地方</span>
+                            <span class="place__price">￥39</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                                </div>
+       </div>
+
+          <h2 class="section__title">&nbsp;</h2>
+    <h2 class="section__title">&nbsp;</h2>
+    <h2 class="section__title">&nbsp;</h2>
+            <h2 class="section__title">景点门票</h2>
+<div class="place__container container grid">
+      <!--==================== PLACES CARD 1 ====================-->
+      <div class="place__card"> <img src="旅游-2 (1)/旅游-2/assets/img/place7.jpg" alt="" class="place__img">
+        <div class="place__content"> <span class="place__rating"> <i class="ri-star-line place__rating-icon"></i> <span class="place__rating-number">4,8</span> </span>
+          <div class="place__data">
+            <h3 class="place__title">沙努尔海豚乐园</h3>
+            <span class="place__subtitle">10：30—18：00</span> <span class="place__price">￥300</span> </div>
+        </div>
+        <button class="button button--flex place__button"> <i class="ri-arrow-right-line"></i> </button>
+      </div>
+      <!--==================== PLACES CARD 2 ====================-->
+      <div class="place__card"> <img src="旅游-2 (1)/旅游-2/assets/img/place8.jpg" alt="" class="place__img">
+        <div class="place__content"> <span class="place__rating"> <i class="ri-star-line place__rating-icon"></i> <span class="place__rating-number">5,0</span> </span>
+          <div class="place__data">
+            <h3 class="place__title">safari野生动物园</h3>
+            <span class="place__subtitle">9：00-17：00</span> <span class="place__price">￥200</span> </div>
+        </div>
+        <button class="button button--flex place__button"> <i class="ri-arrow-right-line"></i> </button>
+      </div>
+      <!--==================== PLACES CARD 3 ====================-->
+      <div class="place__card"> <img src="旅游-2 (1)/旅游-2/assets/img/place9.jpg" alt="" class="place__img">
+        <div class="place__content"> <span class="place__rating"> <i class="ri-star-line place__rating-icon"></i> <span class="place__rating-number">4,9</span> </span>
+          <div class="place__data">
+            <h3 class="place__title">batue火山温泉</h3>
+            <span class="place__subtitle">9：00-18:00</span> <span class="place__price">￥130</span> </div>
+        </div>
+        <button class="button button--flex place__button"> <i class="ri-arrow-right-line"></i> </button>
+      </div>
+      <!--==================== PLACES CARD 4 ====================-->
+     
+      </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">关注我们 <br> 获得最新资讯</h2>
+                    <p class="subscribe__description">不定时发放免费课程
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="手机号" class="subscribe__input">
+
+                        <button class="button">
+                            添加
+                        </button>
+                    </form>
+                </div>
+            </div>
+      </section>
+
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/sponsors1.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/sponsors2.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/sponsors4.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="旅游-2 (1)/旅游-2/assets/img/sponsors5.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Travel</h3>
+                    <p class="footer__description">为您的旅行 <br> 提供更优质更准确的建议 <br> 为您带来方便
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">关于</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">关于我</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">问题</a>
+                        </li>
+                
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">课程</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">已购&nbsp;</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">收藏&nbsp;</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">我的</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">卡包</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">优惠</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="旅游-2 (1)/旅游-2/assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="旅游-2 (1)/旅游-2/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="旅游-2 (1)/旅游-2/assets/js/main.js"></script>
+</body>
+
+</html>
